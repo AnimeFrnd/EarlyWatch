@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '7515868'))
 API_HASH = environ.get('API_HASH', 'dbd251e9ad4883b0443cc82b618ac6fa')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6444037403:AAGaGf2LcTBiEs6gwvfZu7H8x3CqhCx_OKA')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7179779107 6081617163').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/Arya_Bro_Bot") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002370043591'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Arya_Movies_Request_Group')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002201834121').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002441316656').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://animefrnd44:filetolink@cluster0.5lmeb.mongodb.net/?retryWrites=true&w=majority")
@@ -34,8 +34,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Arya')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002009379876')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002009379876'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1001713521586')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002441316656'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002456481410') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Arya_Movies_Request_Group') #Support group link ( make sure bot is admin )
