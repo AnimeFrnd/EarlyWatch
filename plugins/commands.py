@@ -185,7 +185,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('✨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
                     InlineKeyboardButton(' Aɴɪᴍᴇ 🌠', url=f'https://t.me/AnimeCosmoBot'),
-                    InlineKeyboardButton(' Aʟʟ Mᴏᴠɪᴇs 🎥', url=f'https://t.me/EarlywatchBot')
+                    InlineKeyboardButton(' Aʟʟ Mᴏᴠɪᴇs 🎥', url=f'https://t.me/Telugu_Movies_999_Bot')
                 ],[
                     InlineKeyboardButton('🦋 Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
                     InlineKeyboardButton('Rᴇғᴇʀ 🌺', callback_data="reffff")
@@ -215,7 +215,7 @@ async def start(client:Client, message):
                             InlineKeyboardButton('✨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
                     InlineKeyboardButton(' Aɴɪᴍᴇ 🌠', url=f'https://t.me/AnimeCosmoBot'),
-                    InlineKeyboardButton(' Aʟʟ Mᴏᴠɪᴇs 🎥', url=f'https://t.me/EarlywatchBot')
+                    InlineKeyboardButton(' Aʟʟ Mᴏᴠɪᴇs 🎥', url=f'https://t.me/Telugu_Movies_999_Bot')
                 ],[
                     InlineKeyboardButton('🦋 Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
                     InlineKeyboardButton('Rᴇғᴇʀ 🌺', callback_data="reffff")
