@@ -817,11 +817,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                 InlineKeyboardButton('✨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=start')
                 ],[
-                InlineKeyboardButton('Pʀᴇᴍɪᴜᴍ 🎫', callback_data='seeplans'),
-                InlineKeyboardButton('Rᴇғᴇʀ ⚜️', callback_data="reffff")
+                    InlineKeyboardButton(' Aɴɪᴍᴇ 🌠', url=f'https://t.me/AnimeCosmoBot'),
+                    InlineKeyboardButton(' Aʟʟ Mᴏᴠɪᴇs 🎥', url=f'https://t.me/EarlywatchBot')
                 ],[
-                InlineKeyboardButton('🌿Main Channel🌿', url='https://t.me/Telugu_Movies_999')
-                ]] 
+                    InlineKeyboardButton('🦋 Pʀᴇᴍɪᴜᴍ', callback_data='seeplans'),
+                    InlineKeyboardButton('Rᴇғᴇʀ 🌺', callback_data="reffff")
+                ],[
+                    InlineKeyboardButton('💕 Mᴀɪɴ Cʜᴀɴɴᴇʟ 💕', url=f'https://t.me/Telugu_Movies_999')
+                ],[
+                    InlineKeyboardButton('🛒 ᴍɪᴅᴅʟᴇ ᴄʟᴀss ʙᴇꜱᴛ ᴅᴇᴀʟꜱ 🛒', url=f'https://t.me/Vs_Best_Deals')
+                  ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, get_status(), query.from_user.id),
