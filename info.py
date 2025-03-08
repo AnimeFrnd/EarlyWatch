@@ -47,8 +47,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/221")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/aPT.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "77168ee4b9e20fbc35debcfe2ed9c367640bbc7d")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'instantearn.in')
+SHORTENER_API = environ.get("SHORTENER_API", "0bd88e310de46cc857e97ed4930b9962403e7290")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'urllinkshort.in')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "")
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/tli.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/w-t.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/09320f6074b5aeb2b9023-edf4a1129e9e6c4a8f.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/fCR.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/fCR.jpg')).split()
