@@ -43,16 +43,16 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Arya_Movies_Request_Gro
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/221")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/vs_Files_Mx_player/230")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/aPT.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "0bd88e310de46cc857e97ed4930b9962403e7290")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'urllinkshort.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", '')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", '')
+SHORTENER_API = environ.get("SHORTENER_API", "bdcc02d1dc83876aa44d2bf86fda573ebbc180d7")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'modijiurl.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "bdcc02d1dc83876aa44d2bf86fda573ebbc180d7")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'modijiurl.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "bdcc02d1dc83876aa44d2bf86fda573ebbc180d7")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'modijiurl.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
