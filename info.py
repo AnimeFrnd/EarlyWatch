@@ -53,8 +53,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "bdcc02d1dc83876aa44d2bf86fda573e
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'modijiurl.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "bdcc02d1dc83876aa44d2bf86fda573ebbc180d7")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'modijiurl.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "3600"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/w-t.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://telegra.ph/file/47e2abfff8e0812f5811c-6d2f594cf2702ffe08.jpg https://i.imgur.com/J1DxqcZ.jpeg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://graph.org/file/09320f6074b5aeb2b9023-edf4a1129e9e6c4a8f.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/fCR.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/fCR.jpg')).split()
